@@ -9,9 +9,8 @@
   background-position: center center;
   background-size: cover;
   position: relative;
-  margin: 0 auto;
+  margin: 92px 48px 92px;
   padding: 0;
-  margin: 92px 48px 92px;  
 }
 
 @media screen and (max-width: 1279px) {
