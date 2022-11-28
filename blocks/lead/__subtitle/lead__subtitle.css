@@ -10,9 +10,24 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: 93.7%;
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    width: 286px;
     font-size: 16px;
     line-height: 20px;
   }

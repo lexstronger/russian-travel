@@ -1,7 +1,15 @@
 .header__links {
+  width: 77px;
   display: flex;
   margin: 0;
   padding: 0;
   padding-top: 13px;
   list-style: none;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links {
+    width: 62px;
+  }
 }
