@@ -1,6 +1,6 @@
 .header__logo {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   width: 176px;
   height: 52px;
 }
