@@ -1,15 +1,16 @@
 .header__links {
-  width: 77px;
+  max-width: 77px;
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 13px;
+  margin-top: 13px;
   list-style: none;
   justify-content: space-between;
+  gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
   .header__links {
-    width: 62px;
+    max-width: 62px;
   }
 }

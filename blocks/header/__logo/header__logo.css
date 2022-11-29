@@ -1,4 +1,6 @@
 .header__logo {
+  display: block;
+  object-fit: contain;
   width: 176px;
   height: 52px;
 }

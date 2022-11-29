@@ -1,12 +1,10 @@
 .lead__subtitle {
-  width: 640px;
-  margin: 0;
+  max-width: 640px;
   margin: 32px 172px 64px;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
@@ -16,18 +14,13 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .places {
-    max-width: 93.7%;
-    margin-left: auto;
-  }
-}
+
 
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     margin-top: 16px;
     margin-bottom: 40px;
-    width: 286px;
+    max-width: 286px;
     font-size: 16px;
     line-height: 20px;
   }
